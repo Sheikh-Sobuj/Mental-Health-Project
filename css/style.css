@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Root */
+:root {
+  ---green: #339b20;
+  ---black: #222222;
+  ---white: #ffffff;
+  ---blue: #1f73bb;
+  ---gray: #8e8e8e;
+}
+/* Root */
+
+/* Body */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*body*/
+.header-area{
+    background-color: #329b2052;
+}
+.logo img {
+  width: 100px;
+}
+.icon i {
+  font-size: 20px;
+}
+.text h4 {
+  font-size: 12px;
+}
+.text p {
+  font-size: 10px;
+}
+.icon i {
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(---green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(---green);
+  background-color: #7c9cd83a;
+}
+.text h4,
+.text p{
+    color: var(---blue);
+}
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: var(---green);
+}
+
+.lan-data a,
+.lan i{
+    color: var(---green);
+}
+.navbar-area {
+  background-color: var(---blue);
+  height: 50px;
+}
+.navbar-brand {
+  background-color: var(---green);
+  height: 50px;
+  margin-top:-8px;
+}
+.navbar-brand p{
+  font-size: 10px;
+  margin-right: 100px;
+  margin-top: 12px;
+}
+.line-2 {
+  width: 2px;
+  height: 40px;
+  background-color: var(---blue);
+}
+.navbar-toggler{
+    margin-top: -10px;
+}
+.navbar-brand i{
+    font-size: 10px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.nav-link,
+.footer-nav-link {
+  font-size: 10px;
+  color: var(---white);
+  margin-top: -12px;
+}
+
+
+/*header*/
+
+/*banner-area*/
+.banner-area {
+  background-image: url(../img/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-wlc span{
+    width: 70px;
+    height: 3px;
+    background-color: var(---green);
+}
+.banner-title h1{
+    font-size: 100px;
+}
+.banner-btn button {
+    width: 280px;
+    height: 80px;
+    border-radius: 100px;
+    border: 2px solid var(---white);
+    background-color: transparent;
+    color: var(---white);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .banner-btn button:hover {
+    background-color: #329b2052;
+  }
+  
+/*banner-area*/
+
+
+/*about-area*/
+.about-title h2{
+    font-size: 40px;
+  color: var(---black);
+  font-weight: 600;
+}
+.about-heading h1{
+    font-size: 70px;
+    color: var(---blue);
+    font-weight: 800;
+}
+.about-desc p,
+.organization-desc p{
+    font-size: 12px;
+    color: var(---black);
+    font-weight: 500;
+    line-height: 30px;
+}
+.about-btn button,
+.therapists-btn button,
+.organization-btn button{
+    background-color: var(---green);
+    width: 150px;
+    height: 50px;
+}
+/*about-area*/
+
+/*service*/
+.service-area {
+    background-color: #dde7dc52;
+}
+.servive-heading h1{
+    font-size: 50px;
+    color: var(---blue);
+    font-weight: 700;
+}
+.servive-title p{
+    font-size: 20px;
+    color: var(---gray);
+    font-weight: 600;
+}
+  .card{
+    border: 5px solid rgb(220, 238, 250);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+  .card img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+.card-body h1{
+    font-size: 20px;
+    color: var(---black);
+    font-weight: 700;
+}
+.card-body p{
+    font-size: 12px;
+    color: var(---gray);
+    font-weight: 600;
+    line-height: 30px;
+}
+.card-body a{
+    font-size: 15px;
+    color: var(---blue);
+    font-weight: 600;
+}
+.card-body a:hover{
+    color: var(---green);
+}
+/*service*/
+
+/*therapists*/
+.therapists-area{
+    background-image: url(../img/the.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.therapists-heading{
+    padding-top: 240px;
+}
+.therapists-heading h1{
+    font-size: 50px;
+    color: var(---white);
+    font-weight: 700;
+
+}
+.therapists-desc p{
+    font-size: 14px;
+    color: var(---white);
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/*therapists*/
+
+/*organization*/
+.organization-heading h1{
+    font-size: 50px;
+    color: var(---blue);
+    font-weight: 800;
+}
+/*organization*/
+
+/*footer*/
+
+.footer-area {
+    background-image: url(../img/footer.png);
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.footer-logo{
+    margin-top: 200px;
+}
+.footer-nav-link{
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.left a{
+    margin: 0 10px;
+}
+.left a,
+.mid a,
+.right a{
+    font-size: 12px;
+}
+
+
