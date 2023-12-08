@@ -228,6 +228,7 @@ padding: 20px 150px;
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 .menu .container .menu-bar #menubar{
     font-size: 30px;
@@ -767,6 +768,21 @@ padding: 20px 150px;
         padding: 0px 20px;
     }
 }
+@media screen and (max-width: 992px){
+    .menu .container .menu-bar{
+        display: block;
+    }
+    .hero .container .text h1{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .about .container{
+        margin-top: -80px;
+    }
+    .therapists{
+        margin-top: 0;
+    }
+}
 @media (max-width:818px) {
     .about .container .image{
         width: 100%;
@@ -786,6 +802,7 @@ padding: 20px 150px;
     .menu{
         padding: 0px 15px;
     }
+
 }
 @media (max-width:690px) {
     section{
@@ -799,6 +816,12 @@ padding: 20px 150px;
     }
     .menu .container .left .cat{
         width: 450px;
+    }
+    .hero .container .text .top h2{
+        font-size: 30px;
+    }
+    .hero .container .text h1{
+        font-size: 50px;
     }
     .menu .container .left .cat .cat-box .left-data h2{
         font-size: 18px;
@@ -883,6 +906,18 @@ padding: 20px 150px;
     }
     .about .container .text h2{
         font-size: 20px;
+    }
+    .hero .container .text .top h2{
+        font-size: 24px;
+    }
+    .hero .container .text h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero .container .text button{
+        width: 170px;
+        height: 45px;
+        font-size: 12px;
     }
     .smart .container .box{
         width: 450px;
